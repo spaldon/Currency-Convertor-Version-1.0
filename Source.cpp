@@ -1,6 +1,7 @@
 #include <iostream>
 #include <math.h>
 #include <string>
+#include <Windows.h>
 using namespace std;
 
 
@@ -29,21 +30,21 @@ int main()
 
 	 if (currency == "INR")
 	 {
-		 cout << pounds << "Pounds In Rupees + " << rupee;
+		 cout << pounds << " Pounds In Rupees = " << rupee;
 	 }
 	 else if (currency == "EUR")
 	 {
-		 cout << pounds << "Pounds in Euro = " << euro;
+		 cout << pounds << " Pounds in Euro = " << euro;
 	 }
 	 else if (currency == "USD")
 	 {
-		 cout << pounds << "Pounds In Dollars = " << dollar;
+		 cout << pounds << " Pounds In Dollars = " << dollar;
 	 }
 	 else
 	 {
 		 cout << "Thats an Invalid Input! Please Try Again";
 	 }
-		 
-
+			 
+	 Sleep(5000);
 
  }
